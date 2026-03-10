@@ -1,18 +1,18 @@
-import { GraduationCap, BookOpen, FlaskConical, Award } from "lucide-react";
+import { GraduationCap, BookOpen, BarChart, Users } from "lucide-react";
 
 export default function Home() {
   const years = [
-    { name: "1st Year", icon: GraduationCap, url: "#" },
-    { name: "2nd Year", icon: BookOpen, url: "#" },
-    { name: "3rd Year", icon: FlaskConical, url: "#" },
-    { name: "4th Year", icon: Award, url: "#" },
+    { name: "1st Year", icon: Users, url: "https://drive.google.com/drive/folders/1dNS3o8G-xKt-uoMgeJ8xQ_BvhI4Q_xGI?usp=drive_link" },
+    { name: "2nd Year", icon: BookOpen, url: "https://drive.google.com/drive/folders/1le9ruDuHZjH8EY3GXW3MRzu4oQBDgLza?usp=sharing" },
+    { name: "3rd Year", icon: BarChart, url: "https://drive.google.com/drive/folders/1VAeEkGtQ946344uHuRhGAokj68-J1GLS?usp=drive_link" },
+    { name: "4th Year", icon: GraduationCap, url: "#" },
   ];
 
   return (
     <div>
       <section className="hero">
         <h1>Welcome to Stat Kuppi</h1>
-        <p>Student guides for Statistics notes, ICAs, and Passpapers.Created by 48th Batch UOJ Science</p>
+        <p>Student guides for Statistics notes, ICA, and Pastpapers.Created by 48th Batch UOJ Science</p>
         <div className="quote-container">
           <p className="quote">"If you can't explain it simply, you don't understand it well enough."</p>
           <span className="quote-author">— Albert Einstein</span>
