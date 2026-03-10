@@ -9,8 +9,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kuppiya48 - Statistics & Resources",
+  title: "Stat Kuppi - Statistics & Resources",
   description: "Statistics notes, ICAs and Passpapers for the 48th batch.",
+  icons: {
+    icon: "/ico.png",
+  },
 };
 
 export default function RootLayout({
